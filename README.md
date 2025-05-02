@@ -1,29 +1,18 @@
 # APS-C Crop Calculator
 
-A WordPress plugin that provides a simple calculator to convert focal length and aperture values based on different crop factors.
+A simple WordPress plugin that calculates equivalent focal lengths and apertures based on crop factors for photographic lenses.
 
 ## Description
 
-The APS-C Crop Calculator allows photographers to easily convert lens specifications between different sensor sizes. It's particularly useful when comparing lenses across different camera systems or when trying to understand the equivalent field of view and depth of field of a lens on a different format.
+The APS-C Crop Calculator is a lightweight WordPress plugin that helps photographers understand how their lenses will perform on different sensor sizes. It calculates the equivalent focal length and aperture values when using lenses on cameras with different crop factors.
 
 ### Features
 
-- Calculate equivalent focal length and aperture values
-- Support for multiple sensor formats:
-  - 1/2.5" (6.0x crop)
-  - 1/2.3" (5.64x crop)
-  - 1/1.7" (4.55x crop)
-  - 2/3" (4.50x crop)
-  - 1" (2.70x crop)
-  - Micro 4/3 (2x crop)
-  - APS-C (1.5x crop)
-  - APS-C (Canon) (1.62x crop)
-  - APS-C (Sony) (1.53x crop)
-  - Half-frame (1.44x crop)
-  - APS-H (1.29x crop)
-- Simple and intuitive interface
-- Fully responsive design
-- Internationalization ready
+- Real-time calculation of equivalent focal lengths and apertures
+- Support for various crop factors (APS-C, Micro 4/3, 1-inch, etc.)
+- Clean and responsive design
+- No jQuery dependency
+- Optimized performance (scripts and styles only load when needed)
 
 ## Installation
 
@@ -36,40 +25,27 @@ The APS-C Crop Calculator allows photographers to easily convert lens specificat
 1. Enter the focal length of your lens in millimeters
 2. Enter the aperture value (f-number)
 3. Select the crop factor of your camera
-4. Click "Calculate" to see the equivalent values for a full-frame camera
-
-## Frequently Asked Questions
-
-### What is a crop factor?
-
-A crop factor is the ratio of a camera's sensor size compared to a full-frame (35mm) sensor. It affects both the field of view and depth of field of a lens.
-
-### How are the equivalent values calculated?
-
-- Equivalent Focal Length = Actual Focal Length × Crop Factor
-- Equivalent Aperture = Actual Aperture × Crop Factor
-
-### Can I add more crop factors?
-
-Currently, the crop factors are hardcoded in the plugin. Future versions may include a way to add custom crop factors.
-
-## Screenshots
-
-[Add screenshots here]
+4. The calculator will automatically show the equivalent values for a full-frame camera
 
 ## Changelog
 
-### 1.0.0
-* Initial release
+### 1.1
+- Implemented real-time calculation (removed calculate button)
+- Improved form field styling and consistency
+- Optimized performance by loading assets only when needed
+- Removed jQuery dependency
 
-## License
-
-This plugin is licensed under the GPL v2 or later.
+### 1.0
+- Initial release
 
 ## Credits
 
 Developed by [Nilo Vélez](https://www.nilovelez.com/)
 
+## License
+
+This plugin is licensed under the GPL v2 or later.
+
 ## Support
 
-For support, please [open an issue](https://github.com/nilovelez/apsc-crop/issues) on GitHub. 
+For support, please visit the [GitHub Issues](https://github.com/nilovelez/apsc-crop/issues) page. 

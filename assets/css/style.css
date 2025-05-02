@@ -2,24 +2,26 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .apsc-form {
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .apsc-field {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .apsc-field label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: 600;
+    font-weight: bold;
+    color: #333;
 }
 
 .apsc-field input,
@@ -29,6 +31,14 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
+    box-sizing: border-box;
+}
+
+.apsc-field input:focus,
+.apsc-field select:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
 }
 
 .apsc-button {
@@ -47,32 +57,38 @@
 }
 
 .apsc-results {
-    background: #f0f7fc;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.apsc-results h3 {
-    margin-top: 0;
-    color: #0073aa;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
 }
 
 .apsc-result-field {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 10px;
 }
 
+.apsc-result-field:last-child {
+    margin-bottom: 0;
+}
+
 .apsc-label {
-    font-weight: 600;
-    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
 }
 
 .apsc-value {
     color: #0073aa;
+    font-weight: bold;
 }
 
 .apsc-explanation {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
     font-size: 14px;
     color: #666;
-    font-style: italic;
 } 
