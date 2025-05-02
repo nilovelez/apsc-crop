@@ -17,14 +17,14 @@ class APS_C_Crop {
     public function register_scripts() {
         wp_register_style(
             'apsc-crop',
-            APSC_PLUGIN_URL . 'assets/css/style.css',
+            APSC_PLUGIN_URL . 'resources/css/style.css',
             array(),
             APSC_VERSION
         );
 
         wp_register_script(
             'apsc-crop',
-            APSC_PLUGIN_URL . 'assets/js/calculator.js',
+            APSC_PLUGIN_URL . 'resources/js/calculator.js',
             array(),
             APSC_VERSION,
             true

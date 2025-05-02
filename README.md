@@ -1,4 +1,4 @@
-# APS-C Crop Calculator
+# APS-C Crop
 
 A simple WordPress plugin that calculates equivalent focal lengths and apertures based on crop factors for photographic lenses.
 
