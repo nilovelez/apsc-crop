@@ -3,7 +3,7 @@
  * Plugin Name: APS-C Crop
  * Plugin URI: https://github.com/nilovelez/apsc-crop
  * Description: A simple calculator to convert focal length and aperture values based on different crop factors.
- * Version: 1.0.0
+ * Version: 1.1
  * Author: Nilo Vélez
  * Author URI: https://nilovelez.com
  * Text Domain: apsc-crop

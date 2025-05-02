@@ -1,10 +1,10 @@
-=== APS-C Crop Calculator ===
+=== APS-C Crop ===
 Contributors: nilovelez
 Author: Nilo Vélez
 Author URI: https://www.nilovelez.com/
 Tags: photography, calculator, crop factor, focal length, aperture
 Requires at least: 5.0
-Tested up to: 6.4
+Tested up to: 6.8
 Stable tag: 1.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -13,7 +13,7 @@ A simple calculator to determine equivalent focal lengths and apertures based on
 
 == Description ==
 
-The APS-C Crop Calculator is a lightweight WordPress plugin that helps photographers understand how their lenses will perform on different sensor sizes. It calculates the equivalent focal length and aperture values when using lenses on cameras with different crop factors.
+The APS-C Crop is a lightweight WordPress plugin that helps photographers understand how their lenses will perform on different sensor sizes. It calculates the equivalent focal length and aperture values when using lenses on cameras with different crop factors.
 
 = Features =
 
