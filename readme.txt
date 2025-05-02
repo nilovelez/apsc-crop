@@ -36,6 +36,10 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 3. Select the crop factor of your camera
 4. The calculator will automatically show the equivalent values for a full-frame camera
 
+== Screenshots ==
+
+1. The calculator interface
+
 == Changelog ==
 
 = 1.1 =
