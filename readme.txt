@@ -5,7 +5,7 @@ Author URI: https://www.nilovelez.com/
 Tags: photography, calculator, crop factor, focal length, aperture
 Requires at least: 5.0
 Tested up to: 6.8
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,7 +27,7 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 
 1. Upload the `apsc-crop` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Use the shortcode `[crop_factor_calculator]` in any post or page
+3. Use the shortcode `[apsc_crop_calculator]` in any post or page
 
 == Usage ==
 
@@ -42,6 +42,12 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 
 == Changelog ==
 
+= 1.2 =
+* Normalized all CSS classes to use underscores
+* Added unique prefixes to all IDs and functions
+* Updated shortcode to use consistent naming
+* Improved code organization and maintainability
+
 = 1.1 =
 * Implemented real-time calculation (removed calculate button)
 * Improved form field styling and consistency
@@ -53,5 +59,5 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 
 == Upgrade Notice ==
 
-= 1.1 =
-This version includes real-time calculation, improved styling, and performance optimizations. 
+= 1.2 =
+This version includes code normalization and improved naming conventions for better compatibility with other plugins. 

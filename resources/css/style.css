@@ -1,94 +1,93 @@
-.apsc-calculator {
+.apsc_crop_calculator {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.apsc-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.apsc_crop_form {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-.apsc-field {
+.apsc_crop_field {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
 }
 
-.apsc-field label {
-    font-weight: bold;
+.apsc_crop_field label {
+    font-weight: 600;
     color: #333;
 }
 
-.apsc-field input,
-.apsc-field select {
-    width: 100%;
-    padding: 8px;
+.apsc_crop_field input,
+.apsc_crop_field select {
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
-    box-sizing: border-box;
+    transition: border-color 0.3s ease;
 }
 
-.apsc-field input:focus,
-.apsc-field select:focus {
+.apsc_crop_field input:focus,
+.apsc_crop_field select:focus {
     outline: none;
     border-color: #0073aa;
     box-shadow: 0 0 0 1px #0073aa;
 }
 
-.apsc-button {
+.apsc_crop_button {
     background: #0073aa;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
 }
 
-.apsc-button:hover {
+.apsc_crop_button:hover {
     background: #005177;
 }
 
-.apsc-results {
+.apsc_crop_results {
     margin-top: 20px;
-    padding: 15px;
-    background-color: #fff;
+    padding: 20px;
+    background: #f8f9fa;
     border-radius: 4px;
-    border: 1px solid #ddd;
+    display: none;
 }
 
-.apsc-result-field {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+.apsc_crop_result_field {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
 }
 
-.apsc-result-field:last-child {
+.apsc_crop_result_field:last-child {
     margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
 }
 
-.apsc-label {
-    font-weight: bold;
+.apsc_crop_label {
     color: #333;
+    margin-bottom: 5px;
 }
 
-.apsc-value {
+.apsc_crop_value {
+    font-weight: 600;
     color: #0073aa;
-    font-weight: bold;
 }
 
-.apsc-explanation {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #f0f0f0;
-    border-radius: 4px;
+.apsc_crop_explanation {
     font-size: 14px;
     color: #666;
+    margin-top: 5px;
 } 
