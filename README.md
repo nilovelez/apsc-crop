@@ -18,7 +18,7 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 
 1. Upload the `apsc-crop` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Use the shortcode `[crop_factor_calculator]` in any post or page
+3. Use the shortcode `[apsc_crop_calculator]` in any post or page
 
 ## Usage
 

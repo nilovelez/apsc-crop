@@ -6,7 +6,7 @@
  * Version: 1.2
  * Author: Nilo Vélez
  * Author URI: https://nilovelez.com
- * Text Domain: apsc_crop
+ * Text Domain: apsc-crop
  * Domain Path: /languages
  * License: GPL v2 or later
  */
