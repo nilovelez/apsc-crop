@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: APS-C Crop
+ * Plugin Name: APS-C Crop Calculator
  * Plugin URI: https://github.com/nilovelez/apsc-crop
  * Description: A simple calculator to convert focal length and aperture values based on different crop factors.
  * Version: 1.3

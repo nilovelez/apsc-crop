@@ -1,4 +1,4 @@
-# APS-C Crop
+# APS-C Crop Calculator
 
 A simple calculator to convert focal length and aperture values based on different crop factors.
 
