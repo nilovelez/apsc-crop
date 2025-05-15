@@ -9,6 +9,8 @@ class APSC_CROP {
     public function init() {
         add_shortcode('apsc_crop_calculator', array($this, 'render_calculator'));
         add_action('wp_enqueue_scripts', array($this, 'register_scripts'));
+        add_action('init', array($this, 'register_blocks'));
+        add_action('enqueue_block_editor_assets', array($this, 'enqueue_editor_assets'));
     }
 
     /**
@@ -29,6 +31,44 @@ class APSC_CROP {
             APSC_CROP_VERSION,
             true
         );
+    }
+
+    /**
+     * Register Gutenberg blocks
+     */
+    public function register_blocks() {
+        if (!function_exists('register_block_type')) {
+            return;
+        }
+
+        register_block_type('apsc-crop/calculator', array(
+            'title' => __('Crop Factor Calculator', 'apsc-crop'),
+            'description' => __('A calculator to convert focal length and aperture values based on different crop factors.', 'apsc-crop'),
+            'category' => 'widgets',
+            'icon' => 'calculator',
+            'supports' => array(
+                'html' => false
+            ),
+            'render_callback' => array($this, 'render_calculator')
+        ));
+    }
+
+    /**
+     * Enqueue editor assets
+     */
+    public function enqueue_editor_assets() {
+        wp_enqueue_script(
+            'apsc-crop-editor',
+            APSC_CROP_PLUGIN_URL . 'resources/js/editor.js',
+            array('wp-blocks', 'wp-element', 'wp-editor', 'wp-i18n'),
+            APSC_CROP_VERSION,
+            true
+        );
+
+        wp_localize_script('apsc-crop-editor', 'apsc_crop_i18n', array(
+            'title' => __('Crop Factor Calculator', 'apsc-crop'),
+            'description' => __('The calculator will be displayed here on the frontend.', 'apsc-crop')
+        ));
     }
 
     /**

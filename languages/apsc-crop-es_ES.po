@@ -1,8 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: APS-C Crop\n"
-"POT-Creation-Date: 2025-05-02 11:11+0200\n"
-"PO-Revision-Date: 2025-05-02 11:11+0200\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apsc-crop\n"
+"POT-Creation-Date: 2025-05-15T09:31:08+00:00\n"
+"PO-Revision-Date: 2025-05-15 11:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -16,78 +17,121 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: "
 "__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Domain: apsc-crop\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
 
-#: includes/class-apsc-crop.php:44
+#. Plugin Name of the plugin
+#: apsc-crop.php
+msgid "APS-C Crop"
+msgstr "APS-C Crop"
+
+#. Plugin URI of the plugin
+#: apsc-crop.php
+msgid "https://github.com/nilovelez/apsc-crop"
+msgstr "https://github.com/nilovelez/apsc-crop"
+
+#. Description of the plugin
+#: apsc-crop.php
+msgid ""
+"A simple calculator to convert focal length and aperture values based on "
+"different crop factors."
+msgstr ""
+"Una sencilla calculadora para convertir los valores de distancia focal y "
+"apertura en función de distintos factores de recorte."
+
+#. Author of the plugin
+#: apsc-crop.php
+msgid "Nilo Vélez"
+msgstr "Nilo Vélez"
+
+#. Author URI of the plugin
+#: apsc-crop.php
+msgid "https://nilovelez.com"
+msgstr "https://nilovelez.com"
+
+#: includes/class-apsc-crop.php:45 resources/js/editor.js:10
+#: resources/js/editor.js:16
+msgid "Crop Factor Calculator"
+msgstr "Calculadora de factor de recorte"
+
+#: includes/class-apsc-crop.php:46
+msgid ""
+"A calculator to convert focal length and aperture values based on different "
+"crop factors."
+msgstr ""
+"Una sencilla calculadora para convertir los valores de distancia focal y "
+"apertura en función de distintos factores de recorte."
+
+#: includes/class-apsc-crop.php:82
 msgid "1/2.5\" (6.0x crop)"
 msgstr "1/2.5\" (recorte 6.0x)"
 
-#: includes/class-apsc-crop.php:48
+#: includes/class-apsc-crop.php:86
 msgid "1/2.3\" (5.64x crop)"
 msgstr "1/2.3\" (recorte 5.64x)"
 
-#: includes/class-apsc-crop.php:52
+#: includes/class-apsc-crop.php:90
 msgid "1/1.7\" (4.55x crop)"
 msgstr "1/1.7\" (recorte 4.55x)"
 
-#: includes/class-apsc-crop.php:56
+#: includes/class-apsc-crop.php:94
 msgid "2/3\" (4.50x crop)"
 msgstr "2/3\" (recorte 4.50x)"
 
-#: includes/class-apsc-crop.php:60
+#: includes/class-apsc-crop.php:98
 msgid "1\" (2.70x crop)"
 msgstr "1\" (recorte 2.70x)"
 
-#: includes/class-apsc-crop.php:64
+#: includes/class-apsc-crop.php:102
 msgid "Micro 4/3 (2x crop)"
 msgstr "Micro 4/3 (recorte 2x)"
 
-#: includes/class-apsc-crop.php:68
+#: includes/class-apsc-crop.php:106
 msgid "APS-C (1.5x crop)"
 msgstr "APS-C (recorte 1.5x)"
 
-#: includes/class-apsc-crop.php:72
+#: includes/class-apsc-crop.php:110
 msgid "APS-C (Canon) (1.62x crop)"
 msgstr "APS-C (Canon) (recorte 1.62x)"
 
-#: includes/class-apsc-crop.php:76
+#: includes/class-apsc-crop.php:114
 msgid "APS-C (Sony) (1.53x crop)"
 msgstr "APS-C (Sony) (recorte 1.53x)"
 
-#: includes/class-apsc-crop.php:80
+#: includes/class-apsc-crop.php:118
 msgid "Half-frame (1.44x crop)"
 msgstr "Half-frame (recorte 1.44x)"
 
-#: includes/class-apsc-crop.php:84
+#: includes/class-apsc-crop.php:122
 msgid "APS-H (1.29x crop)"
 msgstr "APS-H (recorte 1.29x)"
 
-#: includes/class-apsc-crop.php:94
+#: includes/class-apsc-crop.php:132
 msgid "Focal Length (mm):"
 msgstr "Distancia focal (mm):"
 
-#: includes/class-apsc-crop.php:99
+#: includes/class-apsc-crop.php:137
 msgid "Aperture (f/):"
 msgstr "Apertura (f/):"
 
-#: includes/class-apsc-crop.php:104
+#: includes/class-apsc-crop.php:142
 msgid "Crop Factor:"
 msgstr "Factor de recorte:"
 
-#: includes/class-apsc-crop.php:115
+#: includes/class-apsc-crop.php:153
 msgid "Equivalent Values"
 msgstr "Valores equivalentes"
 
-#: includes/class-apsc-crop.php:117
+#: includes/class-apsc-crop.php:155
 msgid "Equivalent Focal Length:"
 msgstr "Distancia focal equivalente:"
 
-#: includes/class-apsc-crop.php:121
+#: includes/class-apsc-crop.php:159
 msgid "Equivalent Aperture:"
 msgstr "Apertura equivalente:"
 
-#: includes/class-apsc-crop.php:127
+#: includes/class-apsc-crop.php:165
 msgid ""
 "The equivalent values show what focal length and aperture you would need on "
 "a full-frame camera to achieve the same field of view and depth of field."
@@ -96,29 +140,9 @@ msgstr ""
 "necesitarías en una cámara de fotograma completo para conseguir el mismo "
 "campo de visión y profundidad de campo."
 
-#. Plugin Name of the plugin/theme
-msgid "APS-C Crop"
-msgstr "APS-C Crop"
-
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/nilovelez/apsc-crop"
-msgstr "https://github.com/nilovelez/apsc-crop"
-
-#. Description of the plugin/theme
-msgid ""
-"A simple calculator to convert focal length and aperture values based on "
-"different crop factors."
-msgstr ""
-"Una sencilla calculadora para convertir los valores de distancia focal y "
-"apertura en función de distintos factores de recorte."
-
-#. Author of the plugin/theme
-msgid "Nilo Vélez"
-msgstr "Nilo Vélez"
-
-#. Author URI of the plugin/theme
-msgid "https://nilovelez.com"
-msgstr "https://nilovelez.com"
+#: resources/js/editor.js:19
+msgid "The calculator will be displayed here on the frontend."
+msgstr "La calculadora se mostrará aquí en la vista pública de la web."
 
 #~ msgid "Calculate"
 #~ msgstr "Calcular"

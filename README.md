@@ -1,10 +1,10 @@
 # APS-C Crop
 
-A simple WordPress plugin that calculates equivalent focal lengths and apertures based on crop factors for photographic lenses.
+A simple calculator to convert focal length and aperture values based on different crop factors.
 
 ## Description
 
-The APS-C Crop is a lightweight WordPress plugin that helps photographers understand how their lenses will perform on different sensor sizes. It calculates the equivalent focal length and aperture values when using lenses on cameras with different crop factors.
+This plugin adds a simple calculator to convert focal length and aperture values based on different crop factors. It's useful for photographers who want to know the equivalent focal length and aperture they would need on a full-frame camera to achieve the same field of view and depth of field.
 
 ### Features
 
@@ -13,12 +13,13 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 - Clean and responsive design
 - No jQuery dependency
 - Optimized performance (scripts and styles only load when needed)
+- Gutenberg block support
 
 ## Installation
 
-1. Upload the `apsc-crop` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Use the shortcode `[apsc_crop_calculator]` in any post or page
+1. Upload the plugin files to the `/wp-content/plugins/` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress.
+3. Use the shortcode `[apsc_crop_calculator]` to display the calculator on any page or post, or add the block through the editor.
 
 ## Usage
 
@@ -29,14 +30,26 @@ The APS-C Crop is a lightweight WordPress plugin that helps photographers unders
 
 ## Changelog
 
+### 1.3
+* Added Gutenberg block support
+* Fixed JavaScript translations
+* Improved code organization
+* Added proper text domain loading
+
+### 1.2
+* Normalized all CSS classes to use underscores
+* Added unique prefixes to all IDs and functions
+* Updated shortcode to use consistent naming
+* Improved code organization and maintainability
+
 ### 1.1
-- Implemented real-time calculation (removed calculate button)
-- Improved form field styling and consistency
-- Optimized performance by loading assets only when needed
-- Removed jQuery dependency
+* Implemented real-time calculation (removed calculate button)
+* Improved form field styling and consistency
+* Optimized performance by loading assets only when needed
+* Removed jQuery dependency
 
 ### 1.0
-- Initial release
+* Initial release
 
 ## Credits
 
